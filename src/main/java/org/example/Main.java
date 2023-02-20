@@ -23,8 +23,6 @@ public class Main {
 
 //    Java function logic
     public int sum (int a,int b) {
-//        int c = 4 + 5;
-//        return c;
         return a + b;
     }
     
