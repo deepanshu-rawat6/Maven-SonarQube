@@ -23,20 +23,25 @@ public class Main {
 
 //    Java function logic
     public int sum (int a,int b) {
-        int c = 4 + 5;
-        return c;
+//        int c = 4 + 5;
+//        return c;
+        return a + b;
     }
     
 //    This function contain some bugs
     public void operations() {
         int p = 9;
-        int q = 0;
-        float ans = p/q;
+        int q = 3;
+        try {
+            System.out.println((float) p / q);
+        } catch (ArithmeticException e) {
+            System.out.println("Please, a non-zero value of q");
+        }
     }
     public static void main(String[] args) {
         Main obj = new Main();
-        System.err.println(obj.sum(10,20));
-        System.err.println(obj.countPrimes(100));
+        System.out.println(obj.sum(10,20));
+        System.out.println(obj.countPrimes(100));
         obj.operations();
     }
 }
