@@ -28,11 +28,13 @@ public class Main {
     }
 
     public void operations() {
-
+        int p = 9;
+        int q = 0;
+        float ans = p/q;
     }
     public static void main(String[] args) {
         Main obj = new Main();
-        System.out.println(obj.sum(10,20));
+        System.err.println(obj.sum(10,20));
         System.err.println(obj.countPrimes(100));
     }
 }
