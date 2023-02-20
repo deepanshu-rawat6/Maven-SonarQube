@@ -37,5 +37,6 @@ public class Main {
         Main obj = new Main();
         System.err.println(obj.sum(10,20));
         System.err.println(obj.countPrimes(100));
+        obj.operations();
     }
 }
