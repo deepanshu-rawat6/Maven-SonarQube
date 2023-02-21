@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b70c87c-6130-4a9e-a84f-be20dcf17c89" name="Changes" comment="third commit">
+    <list default="true" id="0b70c87c-6130-4a9e-a84f-be20dcf17c89" name="Changes" comment="removing code smells and bugs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
@@ -76,7 +76,8 @@
       <option name="presentableId" value="Default" />
       <updated>1676887906495</updated>
       <workItem from="1676887907807" duration="2004000" />
-      <workItem from="1676910892728" duration="3739000" />
+      <workItem from="1676910892728" duration="4679000" />
+      <workItem from="1676951359814" duration="697000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1676888853919</created>
@@ -106,7 +107,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676911536301</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="removing code smells and bugs">
+      <created>1676914938314</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676914938314</updated>
+    </task>
+    <task id="LOCAL-00006" summary="removing code smells and bugs">
+      <created>1676915264288</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676915264288</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,21 +131,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="second commit" />
     <MESSAGE value="third commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="third commit" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>31</line>
-          <properties class="org.example.Main" method="operations">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="removing code smells and bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="removing code smells and bugs" />
   </component>
 </project>

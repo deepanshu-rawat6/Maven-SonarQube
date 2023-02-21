@@ -30,11 +30,7 @@ public class Main {
     public void operations() {
         int p = 9;
         int q = 3;
-        try {
-            System.out.println((float) p / q);
-        } catch (ArithmeticException e) {
-            System.out.println("Please, a non-zero value of q");
-        }
+        float ans = (float) p/q;
     }
     public static void main(String[] args) {
         Main obj = new Main();
